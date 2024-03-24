@@ -1,0 +1,83 @@
+body {
+    margin: auto;
+    background-color: rgb(28, 28, 28);
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+section {
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 375px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 20px;
+}
+
+section img {
+    width: 144px;
+    border-radius: 50%;
+}
+
+section h2 {
+    color: white;
+}
+
+section h4 {
+    color: greenyellow;
+}
+
+section p {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+section ul {
+    text-align: center;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+section ul li {
+    list-style-type: none;
+    margin-top: 20px;
+    background-color: rgb(87, 86, 86, 0.5);
+    padding: 12px 0 12px 0;
+    border-radius: 10px;
+    position: relative;
+    right: 15px;
+    transition: 0.5s;
+}
+
+section ul li:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+    color: black;
+    transition: 0.5s;
+}
+
+section ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    transition: 0.5s;
+}
+
+section ul li a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+@media screen and (max-width:500px) {
+    section {
+        width: 80%;
+    }
+}
